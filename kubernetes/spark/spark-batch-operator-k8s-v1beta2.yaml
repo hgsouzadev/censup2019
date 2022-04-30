@@ -18,7 +18,7 @@ spec:
   mode: cluster
   image: "docker.io/hgsouzadev/spark-operator:v3.0.0-aws"
   imagePullPolicy: Always
-  mainApplicationFile: s3://datalake-dev-hgsouza/pyspark/spark-operator-enem.py
+  mainApplicationFile: s3a://emr-code-809571664566/hg/pyspark/spark-operator-processing-job-batch.py
   sparkVersion: "3.0.0"
   restartPolicy:
     type: Never
