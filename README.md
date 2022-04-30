@@ -11,7 +11,7 @@ Ferramentas:
     - Kubernetes
     - Spark Operator
     - Airflow
-    - Agro CD
+    - Argo CD
     - Alpine
     - Docker
 
