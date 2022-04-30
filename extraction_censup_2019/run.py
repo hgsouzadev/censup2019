@@ -43,7 +43,7 @@ print("Upload Censup CURSO to S3...")
 s3_client.upload_file(
     basepath + "/" + pastadomeio + "/dados/MICRODADOS_CADASTRO_CURSOS_2019.CSV", 
     "dl-langing-zone-809571664566", 
-    "edsup2019/curso/MICRODADOS_CADASTRO_CURSOS_2019.CSV"
+    "censup2019/curso/MICRODADOS_CADASTRO_CURSOS_2019.CSV"
 )
 
 
